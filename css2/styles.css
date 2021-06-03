@@ -59,7 +59,7 @@ body {
   background-color: rgb(63, 159, 184);
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-  background-image: url(/assets/background.jpg);
+  background-image: url(assets/background.jpg);
   background-size: 50%;
 }
 
@@ -4274,18 +4274,7 @@ textarea.form-control-lg {
     backdrop-filter: blur(50px);
 }
 
-card1{
-  background-image: url(/assets/priscilla-du-preez-BuDD1HGco-4-unsplash.jpg);
-  
-}
 
-card2{
-
-}
-
-card3{
-
-}
 
 .card-3 {
   position: relative;
