@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 /*!
 * Start Bootstrap - Small Business v5.0.0 (https://startbootstrap.com/template/small-business)
 * Copyright 2013-2021 Start Bootstrap
@@ -56,13 +57,19 @@ body {
   font-weight: 400;
   line-height: 1.5;
   color: #212529;
-  background-color: rgb(63, 159, 184);
+  background-color: rgba(14, 35, 41, 0.726) !important;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-  background-image: url(/images/photos/newbackground.jpg);
+  background-image: url('/assets/background.jpg');
   background-size: contain;
   background-attachment: fixed;
   padding-left: 0rem;
+}
+
+.background {
+  z-index: -10 !important;
+  height: 100%;
+  width: 100%;
 }
 
 [data-component="slideshow"] .slide {
@@ -117,11 +124,13 @@ body {
 }
 
 .banner_h4 {
-  font-size: 2.5rem !important;
+  font-size: 3.5rem !important;
+  font-family: 'Lobster', cursive;
 }
 
 .banner_p {
-  font-size: 1.2rem !important;
+  font-size: 2rem !important;
+  font-family: 'Lobster', cursive;
 }
 /*Banner setting*/
 
@@ -3028,8 +3037,8 @@ textarea.form-control-lg {
 }
 .btn-check:focus + .btn-primary, .btn-primary:focus {
   color: #fff;
-  background-color: #0b5ed7;
-  border-color: #0a58ca;
+  background-color: #353c46;
+  border-color: #95abcc91;
   box-shadow: 0 0 0 0.25rem rgba(49, 132, 253, 0.5);
 }
 .btn-check:checked + .btn-primary, .btn-check:active + .btn-primary, .btn-primary:active, .btn-primary.active, .show > .btn-primary.dropdown-toggle {
@@ -3475,9 +3484,14 @@ textarea.form-control-lg {
 }
 
 .btn-sm, .btn-group-sm > .btn {
-  padding: 0.25rem 0.5rem;
-  font-size: 0.875rem;
-  border-radius: 0.2rem;
+  padding: 0.25rem 0rem !important;
+  font-size: 0.875rem !important;
+  border: none !important;
+  background-color: #121e20a2 !important;
+}
+
+#more {
+  display: none;
 }
 
 .fade {
@@ -4033,6 +4047,7 @@ textarea.form-control-lg {
   font-size: 1.25rem;
   text-decoration: none;
   white-space: nowrap;
+  font-family: 'Lobster', cursive;
 }
 .navbar-nav {
   display: flex;
@@ -4329,9 +4344,10 @@ textarea.form-control-lg {
   flex-direction: column;
   min-width: 0;
   word-wrap: break-word;
-  background-color: rgba(255, 255, 255, .4);
+  background-color: rgba(27, 27, 27, 0.767) !important;
   background-clip: border-box;
-  border: 1px solid rgba(0, 0, 0, 0.125);
+  border: 1px solid rgba(0, 0, 0, 0.125) !important;
+  /* border: none; */
   box-shadow: 2px 4px 8px 0 rgba(49, 49, 49, 0.5), 2px 6px 20px 0 rgba(63, 63, 63, 0.5);
   border-radius: 0.5rem;
   -webkit-backdrop-filter: blur(50px);
@@ -4379,6 +4395,7 @@ textarea.form-control-lg {
   padding-bottom: 1rem;
   margin-bottom: 1rem;
   padding-top: 1rem;
+  color: floralwhite !important;
   
 }
 
@@ -4389,15 +4406,15 @@ textarea.form-control-lg {
   flex-direction: column;
   min-width: 0;
   word-wrap: break-word;
-  background-color: rgba(255, 255, 255, .3);
+  background-color: rgba(180, 176, 176, 0.13);
   background-clip: border-box;
   border: 1px solid rgba(0, 0, 0, 0.125);
   box-shadow: 2px 4px 8px 0 rgba(0, 0, 0, 0.5), 2px 6px 20px 0 rgba(0, 0, 0, 0.5);
   border-radius: 0rem;
   width: 90%;
   margin: 0 5rem 0 1.5rem;
-  -webkit-backdrop-filter: blur(10px);
-    backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
   overflow: hidden;
 }
 
@@ -4437,7 +4454,15 @@ textarea.form-control-lg {
 .card-titles {
   margin-bottom: 0.5rem;
   font-size: 1rem !important;
+  color: rgba(129, 127, 127, 0.801);
 }
+
+/* .text-description {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+} */
 
 .card-subtitle {
   margin-top: -0.25rem;
