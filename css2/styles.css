@@ -60,7 +60,7 @@ body {
   background-color: rgba(14, 35, 41, 0.726) !important;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-  background-image: url('/assets/background.jpg');
+  /* background-image: url('/assets/background.jpg'); */
   background-size: contain;
   background-attachment: fixed;
   padding-left: 0rem;
